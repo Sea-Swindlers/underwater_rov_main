@@ -12,5 +12,7 @@ catkin build
 ```
 
 ## Running
+```
 roslaunch mavros apm.launch 
 rosservice call /mavros/set_stream_rate 0 10 1 # To have apm publish messages to ros.
+```
