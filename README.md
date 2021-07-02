@@ -18,5 +18,8 @@ rosservice call /mavros/set_stream_rate 0 10 1 # To have apm publish messages to
 ```
 
 ## Useful Commands
+```
 rosrun mavros mavsafety arm
 rosrun mavros mavsys mode -c MANUAL
+rosrun mavros mavsys mode -c STABILIZE
+```
