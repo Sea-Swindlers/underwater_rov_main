@@ -16,3 +16,7 @@ catkin build
 roslaunch mavros apm.launch 
 rosservice call /mavros/set_stream_rate 0 10 1 # To have apm publish messages to ros.
 ```
+
+
+# Dependencies
+`pip3 install roboticstoolbox-python`
